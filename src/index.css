@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    border: none;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    overflow-y: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.792);
+}
+.Heading{
+    color: white;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.InputComp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 10px 20px 10px;
+    width: 70%;
+}
+.InputComp_Input{
+    
+    padding: 7px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 70%;
+ }
+
+ .InputComp_Button{
+    padding: 5px 15px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left:15px ;
+ }
+ .InputComp_Button:hover{
+    padding: 5px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left:15px ;
+    border-radius: 5px;
+    background-color: rgb(42, 220, 63);
+    /* color: white; */
+/**/ }
+ .TasksComp{
+    /* background-color: aqua; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+ }
+ .TasksComp2{
+    background-color: rgba(38, 224, 21, 0.441);
+    width: 50%;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    /* text-decoration: line-through; */
+ }
+
+ .TasksComp_Check{
+    margin: 5px;
+ }
+.TasksComp_Input{
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 5px;
+}
+.TasksComp_Input2{
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    text-decoration: line-through;
+}
+
+.TasksComp_Edit{
+    margin: 5px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.TasksComp_Edit2{
+    margin: 5px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: line-through;
+}
+
+.TasksComp_Edit:hover{
+    margin: 5px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(42, 63, 165);
+    color: aliceblue;
+/**/    cursor: pointer;
+
+}
+
+.TasksComp_Delete{
+    margin: 5px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: rgb(240, 41, 41); */
+    /* color: white; */
+}
+
+
+.TasksComp_Delete:hover{
+    margin: 5px;
+    font-size: 13px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(240, 41, 41);
+    color: white;
+/**/}
+
+@media only screen and (max-width: 500px) {
+    *{
+        margin: 0;
+        border: none;
+    }
+    .Main{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        overflow-y: auto;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.792);
+    }
+    .InputComp{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 50px 10px 20px 10px;
+        width: 80%;
+    }
+    .InputComp_Input{
+        
+        padding: 5px;
+        padding-left: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        width: 80%;
+     }
+    
+     .InputComp_Button{
+        padding: 5px 15px;
+        font-size: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-left:10px ;
+     }
+     .InputComp_Button:hover{
+        padding: 5px 15px;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left:10px ;
+        border-radius: 5px;
+        background-color: rgb(42, 220, 63);
+        /* color: white; */
+          }
+     .TasksComp{
+        /* background-color: aqua; */
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+     }
+     .TasksComp2{
+        background-color: rgba(38, 224, 21, 0.441);
+        width: 80%;
+        display: flex;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        /* text-decoration: line-through; */
+     }
+    
+     .TasksComp_Check{
+        margin: 5px;
+     }
+    .TasksComp_Input{
+        margin: 5px;
+        padding: 5px;
+        width: 70%;
+        font-size: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border-radius: 5px;
+    }
+    .TasksComp_Input2{
+        margin: 5px;
+        padding: 5px;
+        width: 70%;
+        font-size: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        color: white;
+        border-radius: 5px;
+        text-decoration: line-through;
+    }
+    
+    .TasksComp_Edit{
+        margin: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .TasksComp_Edit2{
+        margin: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: line-through;
+    }
+    
+    .TasksComp_Edit:hover{
+        margin: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        background-color: rgb(42, 63, 165);
+        color: aliceblue;
+    /**/        cursor: pointer;
+    
+    }
+    
+    .TasksComp_Delete{
+        margin: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(240, 41, 41);
+        color: white;
+    }
+    
+    
+    .TasksComp_Delete:hover{
+        margin: 5px;
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        background-color: rgb(240, 41, 41);
+        color: white;
+    /**/    }
+  }
